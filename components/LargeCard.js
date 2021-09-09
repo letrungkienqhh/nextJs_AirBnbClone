@@ -14,7 +14,8 @@ export const LargeCard = ({img,title,description,buttonText}) => {
             <div className="absolute top-1/2  justify-center px-10 space-y-2">
                 <h3 className="text-gray-800 text-3xl font-semibold">{title}</h3>
                 <p className="font-light">{description}</p>
-                <button className="bg-gray-400 p-3 rounded-md transition transform hover:scale-110  hover:text-lg ease-out">{buttonText}</button>
+                <button className="bg-gray-400 p-3 rounded-md transition transform hover:scale-110  
+                hover:text-lg ease-out active:scale-75">{buttonText}</button>
             </div>
         </div>
     )
